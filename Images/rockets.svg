@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 240" width="1200" height="240" preserveAspectRatio="none">
+  <g fill="#0a0a14">
+
+    <!-- Left gantry tower -->
+    <rect x="112" y="62" width="7" height="150"/>
+    <rect x="150" y="62" width="7" height="150"/>
+    <rect x="112" y="62" width="45" height="6"/>
+    <rect x="112" y="100" width="45" height="5"/>
+    <rect x="112" y="138" width="45" height="5"/>
+    <rect x="112" y="176" width="45" height="5"/>
+
+    <!-- Left rocket -->
+    <path d="M180 212 L180 100 Q193 56 206 100 L206 212 Z"/>
+    <path d="M180 212 L162 212 L180 178 Z"/>
+    <path d="M206 212 L224 212 L206 178 Z"/>
+    <rect x="186" y="118" width="14" height="4"/>
+
+    <!-- Centre heavy-lift vehicle -->
+    <path d="M578 214 L578 72 Q600 14 622 72 L622 214 Z"/>
+    <path d="M564 214 L564 118 Q571 94 578 118 L578 214 Z"/>
+    <path d="M622 214 L622 118 Q629 94 636 118 L636 214 Z"/>
+    <path d="M564 214 L542 214 L564 172 Z"/>
+    <path d="M636 214 L658 214 L636 172 Z"/>
+    <rect x="588" y="96" width="24" height="5"/>
+    <rect x="588" y="140" width="24" height="5"/>
+
+    <!-- Centre service structure -->
+    <rect x="500" y="40" width="8" height="174"/>
+    <rect x="536" y="40" width="8" height="174"/>
+    <rect x="500" y="40" width="44" height="7"/>
+    <rect x="500" y="84" width="44" height="5"/>
+    <rect x="500" y="128" width="44" height="5"/>
+    <rect x="500" y="172" width="44" height="5"/>
+    <rect x="544" y="70" width="34" height="6"/>
+
+    <!-- Right rocket -->
+    <path d="M944 214 L944 92 Q960 44 976 92 L976 214 Z"/>
+    <path d="M944 214 L924 214 L944 176 Z"/>
+    <path d="M976 214 L996 214 L976 176 Z"/>
+    <rect x="950" y="112" width="18" height="4"/>
+
+    <!-- Right gantry -->
+    <rect x="1010" y="70" width="7" height="144"/>
+    <rect x="1046" y="70" width="7" height="144"/>
+    <rect x="1010" y="70" width="43" height="6"/>
+    <rect x="1010" y="110" width="43" height="5"/>
+    <rect x="1010" y="150" width="43" height="5"/>
+    <rect x="1010" y="190" width="43" height="5"/>
+
+    <!-- Distant vehicle already climbing -->
+    <g transform="rotate(-16 1140 120)">
+      <path d="M1132 150 L1132 96 Q1140 74 1148 96 L1148 150 Z"/>
+      <path d="M1132 150 L1124 150 L1132 132 Z"/>
+      <path d="M1148 150 L1156 150 L1148 132 Z"/>
+    </g>
+
+    <!-- Small antenna masts -->
+    <rect x="320" y="150" width="4" height="64"/>
+    <rect x="312" y="150" width="20" height="4"/>
+    <rect x="800" y="134" width="4" height="80"/>
+    <rect x="792" y="134" width="20" height="4"/>
+
+    <!-- Pad deck / horizon -->
+    <path d="M0 214 L1200 214 L1200 240 L0 240 Z"/>
+    <path d="M60 214 L1140 214 L1140 208 L60 208 Z" opacity="0.7"/>
+  </g>
+</svg>
